@@ -21,5 +21,7 @@ from UdemyApp import views
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     path('admin/', admin.site.urls),
-    url('^udemy_app/', include('UdemyApp.urls'))
+    url('^udemy_app/', include('UdemyApp.urls')),
+    url(r'^logout/$', views.user_logout, name='logout'),
+    url('special', views.special, name='special')
 ]

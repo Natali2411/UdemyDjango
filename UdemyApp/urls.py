@@ -8,4 +8,5 @@ app_name = "UdemyApp"
 
 urlpatterns = [
     url('^register/$', views.register, name='register'),
+    url(r'user_login/$', views.user_login, name="user_login")
 ]

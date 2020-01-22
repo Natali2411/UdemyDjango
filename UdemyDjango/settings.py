@@ -60,7 +60,7 @@ TEMPLATES = [
         'DIRS': [TEMPLATE_DIR, ],
         'APP_DIRS': True,
         'OPTIONS': {
-            'context_processors': [
+            'conte-xt_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
@@ -136,3 +136,6 @@ STATICFILES_DIRS = [STATIC_DIR, ]
 # MEDIA
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
+
+
+LOGIN_URL = '/UdemyApp/user_login'
