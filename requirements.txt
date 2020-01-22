@@ -74,6 +74,6 @@ urllib3==1.13.1
 user-agent==0.1.9
 virtualenv==15.1.0
 VPNocchio==0.0.24
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 xlrd==1.1.0
 zeep==2.5.0
