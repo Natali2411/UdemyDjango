@@ -28,7 +28,7 @@ itsdangerous==0.24
 Jinja2==2.10
 jwcrypto==0.4.2
 lockfile==0.12.2
-lxml==4.2.1
+lxml==4.6.2
 Mako==1.0.7
 MarkupSafe==1.0
 more-itertools==4.2.0
